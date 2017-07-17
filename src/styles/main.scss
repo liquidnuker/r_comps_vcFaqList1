@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+// 
+// ==================================================/
+@import "vendor/andy";
+@import "utils/helpers";
+@import "base/reset";
+@import "vendor/normalize"; 
+@import "base/fonts";
+@import "base/colors";
+
+@import "vendor/mq"; 
+@import "layout/grid";
+
+@import "vcFaqList1-01";
+
+// show the active breakpoint (_mq.scss)
+// ==================================================/
+@include mq-show-breakpoints;
+
+// show col-* grid borders (_grid.scss)
+// ==================================================/
+@include col-grid-border(#000);
+
+// tempo
+body {
+  @extend %system_normal--300;
+}
+
+.item-id {
+  background-color: #ccc;
+}
