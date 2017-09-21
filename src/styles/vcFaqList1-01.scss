@@ -1,5 +1,5 @@
-@mixin vcFaqList1-01_theme() {
-  .vcFaqList1-01 {
+@mixin vueFaqList101_theme() {
+  .vueFaqList101 {
     background-color: #2a2a2d;
     
     h2 {
@@ -8,7 +8,7 @@
         color: #ccc;
       }
 
-      &:hover > .vcFaqList1-01_icon {
+      &:hover > .vueFaqList101_icon {
         svg {
           fill: #000;
         }
@@ -20,11 +20,11 @@
     }
   }
 
-  .vcFaqList1-01_title {
+  .vueFaqList101_title {
     border-bottom: 1px dashed #5c5d60;
   }
 
-  .vcFaqList1-01_icon {
+  .vueFaqList101_icon {
     svg {
       border: 1px solid #000;
       background-color: #e6e6e6;
@@ -32,27 +32,27 @@
     }
   }
 
-  .vcFaqList1-01_ans {
+  .vueFaqList101_ans {
     background-color: #2c2d32;
     color: #d5d5d5;
   }
 }
-@include vcFaqList1-01_theme();
+@include vueFaqList101_theme();
 
-.vcFaqList1-01 {
+.vueFaqList101 {
   li {
     @extend %padd--4;    
   }  
 }
 
-.vcFaqList1-01_title {
+.vueFaqList101_title {
   @extend %font--bold;
   @extend %padd--4;
   margin-bottom: 4px; 
   cursor: pointer;
 }
 
-.vcFaqList1-01_icon {
+.vueFaqList101_icon {
   @extend %display--inline-block;
   margin-right: 4px;
   
@@ -64,6 +64,6 @@
   }
 }
 
-.vcFaqList1-01_ans {
+.vueFaqList101_ans {
   @extend %padd--4;
 }

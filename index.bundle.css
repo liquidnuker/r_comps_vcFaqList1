@@ -7,7 +7,7 @@
   .row:after {
     clear: both; }
 
-.vcFaqList1-01_icon {
+.vueFaqList101_icon {
   display: inline-block; }
 
 input, textarea, select, html, body, div, span, applet, object, iframe,
@@ -26,10 +26,10 @@ time, mark, audio, video {
   margin: 0;
   padding: 0; }
 
-.vcFaqList1-01 li, .vcFaqList1-01_title, .vcFaqList1-01_ans {
+.vueFaqList101 li, .vueFaqList101_title, .vueFaqList101_ans {
   padding: 4px; }
 
-.vcFaqList1-01_title {
+.vueFaqList101_title {
   font-weight: bold; }
 
 *,
@@ -782,36 +782,36 @@ body {
   .col-lg-1 {
     width: 8.33333333%; } }
 
-.vcFaqList1-01 {
+.vueFaqList101 {
   background-color: #2a2a2d; }
-  .vcFaqList1-01 h2 {
+  .vueFaqList101 h2 {
     color: #eee; }
-    .vcFaqList1-01 h2:hover {
+    .vueFaqList101 h2:hover {
       color: #ccc; }
-    .vcFaqList1-01 h2:hover > .vcFaqList1-01_icon svg {
+    .vueFaqList101 h2:hover > .vueFaqList101_icon svg {
       fill: #000; }
-  .vcFaqList1-01 li {
+  .vueFaqList101 li {
     background-color: #1c1d22; }
 
-.vcFaqList1-01_title {
+.vueFaqList101_title {
   border-bottom: 1px dashed #5c5d60; }
 
-.vcFaqList1-01_icon svg {
+.vueFaqList101_icon svg {
   border: 1px solid #000;
   background-color: #e6e6e6;
   fill: #be0101; }
 
-.vcFaqList1-01_ans {
+.vueFaqList101_ans {
   background-color: #2c2d32;
   color: #d5d5d5; }
 
-.vcFaqList1-01_title {
+.vueFaqList101_title {
   margin-bottom: 4px;
   cursor: pointer; }
 
-.vcFaqList1-01_icon {
+.vueFaqList101_icon {
   margin-right: 4px; }
-  .vcFaqList1-01_icon svg {
+  .vueFaqList101_icon svg {
     display: inline-block;
     vertical-align: baseline;
     width: 16px;

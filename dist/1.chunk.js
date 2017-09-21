@@ -38,11 +38,11 @@ webpackJsonp([1],{
   data: function data() {
     return {
       faqList: [{
-        title: "vcFaqList1-01_title1",
+        title: "vueFaqList101_title1",
         content: "Lorem ipsum dolor sit amet1,...",
         toggled: false
       }, {
-        title: "vcFaqList1-01_title2",
+        title: "vueFaqList101_title2",
         content: "Lorem ipsum dolor sit amet2,...",
         toggled: false
       }]
@@ -74,17 +74,17 @@ webpackJsonp([1],{
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', [_c('article', {
-    staticClass: "vcFaqList1-01"
+    staticClass: "vueFaqList101"
   }, _vm._l((_vm.faqList), function(i, index) {
     return _c('ul', [_c('li', [_c('h2', {
-      staticClass: "vcFaqList1-01_title",
+      staticClass: "vueFaqList101_title",
       on: {
         "click": function($event) {
           _vm.toggleContent(index)
         }
       }
     }, [_vm._v("\r\n        " + _vm._s(i.title) + "\r\n        "), (!i.toggled) ? _c('span', {
-      staticClass: "vcFaqList1-01_icon"
+      staticClass: "vueFaqList101_icon"
     }, [_c('svg', {
       attrs: {
         "xmlns": "http://www.w3.org/2000/svg",
@@ -95,7 +95,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
         "d": "M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
       }
     })])]) : _c('span', {
-      staticClass: "vcFaqList1-01_icon"
+      staticClass: "vueFaqList101_icon"
     }, [_c('svg', {
       attrs: {
         "xmlns": "http://www.w3.org/2000/svg",
@@ -106,7 +106,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
         "d": "M19 13H5v-2h14v2z"
       }
     })])])]), _vm._v(" "), _c('section', [(i.toggled) ? _c('p', {
-      staticClass: "vcFaqList1-01_ans"
+      staticClass: "vueFaqList101_ans"
     }, [_vm._v("\r\n            " + _vm._s(i.content) + "\r\n          ")]) : _vm._e()])])])
   }))])
 }
